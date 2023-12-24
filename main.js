@@ -7,6 +7,7 @@ $(document).ready(function() {
         $('#novo-item').val('');
     });
 
+    
     $('ul').on('click', 'li', function() {
         $(this).toggleClass('riscado');
     });
